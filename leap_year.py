@@ -28,7 +28,7 @@ def is_a_leap_year(year):
         return False
 
 
-year = 2000
+year = 1900
 is_leap = is_a_leap_year(year)
 if is_leap:
     print(f"året {year} er et skuddår")
